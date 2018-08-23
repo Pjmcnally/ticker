@@ -23,10 +23,10 @@ class Application(tk.Frame):
 
         links = {
             "zacks": "https://www.zacks.com/stock/quote/{0}",
-            "finvis": "https://finviz.com/quote.ashx?t={0}",
+            "finviz": "https://finviz.com/quote.ashx?t={0}",
             "openinsider": "http://openinsider.com/search?q={0}",
             "earningswhispers": "https://earningswhispers.com/stocks/{0}",
-            "shortsqueze":
+            "shortsqueeze":
                 "http://shortsqueeze.com/?symbol={0}&submit=Short+Quote"
         }
 
