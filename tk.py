@@ -17,6 +17,11 @@ class Ticker(tk.Frame):
         self.create_widgets()
 
     def create_widgets(self):
+        self.create_buttons()
+        self.create_text_box()
+
+    def create_buttons(self):
+        pass
         # self.hi_there = tk.Button(self)
         # self.hi_there["text"] = "Click here to open new tabs"
         # self.hi_there["command"] = self.openall
