@@ -26,10 +26,11 @@ class Application(tk.Frame):
             "finvis": "https://finviz.com/quote.ashx?t={0}",
             "openinsider": "http://openinsider.com/search?q={0}",
             "earningswhispers": "https://earningswhispers.com/stocks/{0}",
-            "shortsqueze": "http://shortsqueeze.com/?symbol={0}&submit=Short+Quote"
+            "shortsqueze":
+                "http://shortsqueeze.com/?symbol={0}&submit=Short+Quote"
         }
 
-        for site, link in links.items():
+        for link in links.values():
             wb.open(link.format(symbol))
 
 
