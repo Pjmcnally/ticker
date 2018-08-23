@@ -10,7 +10,7 @@ finviz.com
 openinsider.com
 earningswhispers.com
 shortsqueeze.com
-insidercow.com  -- This one could be tricky. I can't build the search
+insidercow.com  -- This one could be tricky. I can't build the search url.
 
 To do this project I am going to need to learn a couple new things. I will need
 to build a simple ui. I will use tkinter to do this. I will also need to learn
