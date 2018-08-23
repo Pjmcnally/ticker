@@ -20,3 +20,6 @@ Resources:
 https://www.pyinstaller.org/
 https://docs.python.org/3/faq/gui.html#id5
 https://docs.python.org/3/library/tk.html#tkinter
+
+Issue with Selenium and PyInstaller
+https://stackoverflow.com/questions/39563851/how-to-include-chromedriver-with-pyinstaller
