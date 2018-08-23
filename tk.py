@@ -19,10 +19,18 @@ class Application(tk.Frame):
         self.quit.pack(side="bottom")
 
     def openall(self):
-        wb.open('https://www.google.com')
-        wb.open('https://www.gmail.com')
-        wb.open('https://maps.google.com')
-        wb.open('https://drive.google.com/drive/my-drive')
+        symbol = "AAPL"
+
+        links = {
+            "zacks": "https://www.zacks.com/stock/quote/{0}",
+            "finvis": "https://finviz.com/quote.ashx?t={0}",
+            "openinsider": "http://openinsider.com/search?q={0}",
+            "earningswhispers": "https://earningswhispers.com/stocks/{0}",
+            "shortsqueze": "http://shortsqueeze.com/?symbol={0}&submit=Short+Quote"
+        }
+
+        for site, link in links.items():
+            wb.open(link.format(symbol))
 
 
 root = tk.Tk()
