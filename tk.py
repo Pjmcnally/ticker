@@ -9,17 +9,22 @@ class App(tk.Frame):
         self.create_widgets()
 
     def create_widgets(self):
-        self.hi_there = tk.Button(self)
-        self.hi_there["text"] = "Click here to open new tabs"
-        self.hi_there["command"] = self.openall
-        self.hi_there.pack(side="top")
+        # self.hi_there = tk.Button(self)
+        # self.hi_there["text"] = "Click here to open new tabs"
+        # self.hi_there["command"] = self.openall
+        # self.hi_there.pack(side="top")
 
-        self.quit = tk.Button(self, text="QUIT", fg="red",
-                              command=root.destroy)
-        self.quit.pack(side="bottom")
+        # self.quit = tk.Button(self, text="QUIT", fg="red",
+        #                       command=root.destroy)
+        # self.quit.pack(side="bottom")
 
-    def openall(self):
-        symbol = "AAPL"
+        self.text_box = tk.Entry(self)
+        self.text_box.pack(side="bottom")
+        self.text_box.bind('<Return>', self.openall)
+        self.text_box.focus()
+
+    def openall(self, event=None):
+        symbol = self.text_box.get()
 
         links = {
             "zacks": "https://www.zacks.com/stock/quote/{0}",
@@ -32,8 +37,14 @@ class App(tk.Frame):
 
         for link in links.values():
             wb.open(link.format(symbol))
+        self.text_box.delete(0, 'end')
+        self.text_box.focus()
 
 
 root = tk.Tk()
+root.title('Ticker')
+root.geometry("500x500")
+
+
 app = App(master=root)
 app.mainloop()
