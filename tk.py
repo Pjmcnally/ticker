@@ -2,7 +2,7 @@ import tkinter as tk
 import webbrowser as wb
 
 
-class App(tk.Frame):
+class Ticker(tk.Frame):
     def __init__(self, master=None):
         super().__init__(master)
         self.pack()
@@ -45,6 +45,5 @@ root = tk.Tk()
 root.title('Ticker')
 root.geometry("500x500")
 
-
-app = App(master=root)
+app = Ticker(master=root)
 app.mainloop()
