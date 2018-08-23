@@ -28,11 +28,13 @@ class Ticker(tk.Frame):
 
         self.text_box = tk.Entry(self)
         self.text_box.pack(side="bottom")
-        self.text_box.bind('<Return>', self.openall)
+        self.text_box.bind('<Return>', self.run_search)
         self.text_box.focus()
 
-    def openall(self, event=None):
+    def run_search(self, event=None):
         symbol = self.text_box.get()
+        self.text_box.delete(0, 'end')
+        self.text_box.focus()
 
         for link in self.links.values():
             wb.open(link.format(symbol))
