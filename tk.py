@@ -18,6 +18,7 @@ class Ticker(tk.Frame):
 
     def create_widgets(self):
         self.create_buttons()
+        self.build_label()
         self.create_text_box()
 
     def create_buttons(self):
@@ -30,6 +31,14 @@ class Ticker(tk.Frame):
         # self.quit = tk.Button(self, text="QUIT", fg="red",
         #                       command=root.destroy)
         # self.quit.pack(side="bottom")
+
+    def build_label(self):
+        self.box_label = tk.Label(
+            self,
+            font=("Lucida Console", 20),
+            text="Enter stock symbol\r\nHit Enter to search."
+        )
+        self.box_label.pack(side="top")
 
     def create_text_box(self):
         self.text_box = tk.Entry(self)
