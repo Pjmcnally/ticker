@@ -41,7 +41,12 @@ class Ticker(tk.Frame):
         self.box_label.pack(side="top")
 
     def create_text_box(self):
-        self.text_box = tk.Entry(self)
+        self.text_box = tk.Entry(
+            self,
+            font=("Lucida Console", 24),
+            width=8,
+            justify="center",
+        )
         self.text_box.pack(side="bottom")
         self.text_box.bind('<Return>', self.run_search)
         self.text_box.delete(0, 'end')
