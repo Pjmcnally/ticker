@@ -1,0 +1,16 @@
+# Linters and environment. Not essential.
+flake8
+pip-chill
+pydocstyle
+pylint
+# astroid # Installed as dependency for pylint
+# click # Installed as dependency for pip-chill
+# colorama # Installed as dependency for pylint
+# isort # Installed as dependency for pylint
+# lazy-object-proxy # Installed as dependency for astroid
+# mccabe # Installed as dependency for pylint, flake8
+# pycodestyle # Installed as dependency for flake8
+# pyflakes # Installed as dependency for flake8
+# six # Installed as dependency for pydocstyle, astroid
+# snowballstemmer # Installed as dependency for pydocstyle
+# wrapt # Installed as dependency for astroid
