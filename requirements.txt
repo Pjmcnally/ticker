@@ -1,3 +1,5 @@
+# Requires python 3.6 (pyinstaller incompatible with 3.7)
+
 pyinstaller
 # altgraph # Installed as dependency for macholib
 # future # Installed as dependency for pefile, pyinstaller
