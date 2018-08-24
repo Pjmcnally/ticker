@@ -29,3 +29,8 @@ https://stackoverflow.com/questions/39563851/how-to-include-chromedriver-with-py
 For creating Mac executable or installer and testing.
 https://techsviewer.com/install-macos-10-14-mojave-virtualbox-windows/
 https://www.makeuseof.com/tag/macos-windows-10-virtual-machine/
+
+For signing generated exe.
+https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)
+https://github.com/pyinstaller/pyinstaller/wiki/Recipe-Win-Code-Signing
+https://eclipsesource.com/blogs/2016/09/07/tutorial-code-signing-and-verification-with-openssl/
