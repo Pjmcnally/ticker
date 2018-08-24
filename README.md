@@ -25,3 +25,7 @@ http://effbot.org/tkinterbook/tkinter-hello-again.htm
 
 Issue with Selenium and PyInstaller
 https://stackoverflow.com/questions/39563851/how-to-include-chromedriver-with-pyinstaller
+
+For creating Mac executable or installer and testing.
+https://techsviewer.com/install-macos-10-14-mojave-virtualbox-windows/
+https://www.makeuseof.com/tag/macos-windows-10-virtual-machine/
