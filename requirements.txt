@@ -1,3 +1,11 @@
+pyinstaller
+# altgraph # Installed as dependency for macholib
+# future # Installed as dependency for pefile, pyinstaller
+# macholib # Installed as dependency for pyinstaller
+# pefile # Installed as dependency for pyinstaller
+# pypiwin32 # Installed as dependency for pyinstaller
+# pywin32 # Installed as dependency for pypiwin32
+
 # Linters and environment. Not essential.
 flake8
 pip-chill
