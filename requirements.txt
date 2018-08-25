@@ -1,26 +1,7 @@
-# Requires python 3.6 (pyinstaller incompatible with 3.7)
-
-pyinstaller
-# altgraph # Installed as dependency for macholib
-# future # Installed as dependency for pefile, pyinstaller
-# macholib # Installed as dependency for pyinstaller
-# pefile # Installed as dependency for pyinstaller
-# pypiwin32 # Installed as dependency for pyinstaller
-# pywin32 # Installed as dependency for pypiwin32
-
-# Linters and environment. Not essential.
-flake8
-pip-chill
-pydocstyle
-pylint
-# astroid # Installed as dependency for pylint
-# click # Installed as dependency for pip-chill
-# colorama # Installed as dependency for pylint
-# isort # Installed as dependency for pylint
-# lazy-object-proxy # Installed as dependency for astroid
-# mccabe # Installed as dependency for pylint, flake8
-# pycodestyle # Installed as dependency for flake8
-# pyflakes # Installed as dependency for flake8
-# six # Installed as dependency for pydocstyle, astroid
-# snowballstemmer # Installed as dependency for pydocstyle
-# wrapt # Installed as dependency for astroid
+altgraph==0.16.1
+future==0.16.0
+macholib==1.10
+pefile==2018.8.8
+PyInstaller==3.3.1
+pypiwin32==223
+pywin32==223
