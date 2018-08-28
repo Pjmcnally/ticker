@@ -33,6 +33,7 @@ List of blog posts, websites, or other resources consulted while making this.
 ## MVC discussions:
 * https://gist.github.com/ajfigueroa/c2af555630d1db3efb5178ece728b017
 * https://sukhbinder.wordpress.com/2014/12/25/an-example-of-model-view-controller-design-pattern-with-tkinter-python/  
+* https://github.com/python-programmer/kivy-simple-mvc-template
 
 ## Info on config file:
 * https://docs.python.org/3.7/library/configparser.html
