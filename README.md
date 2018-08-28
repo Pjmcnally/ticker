@@ -27,6 +27,11 @@ For user sortable list box:
 http://effbot.org/tkinterbook/listbox.htm
 https://flylib.com/books/en/2.9.1.230/1/
 
+Info on config file:
+https://docs.python.org/3.7/library/configparser.html
+https://martin-thoma.com/configuration-files-in-python/
+http://buklijas.info/blog/2018/01/01/always-start-with-simple-solution/
+
 Issue with Selenium and PyInstaller  
 https://stackoverflow.com/questions/39563851/how-to-include-chromedriver-with-pyinstaller  
 
