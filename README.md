@@ -30,6 +30,9 @@ List of blog posts, websites, or other resources consulted while making this.
 * http://effbot.org/tkinterbook/listbox.htm  
 * https://flylib.com/books/en/2.9.1.230/1/  
 
+## Kivy
+* https://kivy.org/doc/stable/
+
 ## MVC discussions:
 * https://gist.github.com/ajfigueroa/c2af555630d1db3efb5178ece728b017
 * https://sukhbinder.wordpress.com/2014/12/25/an-example-of-model-view-controller-design-pattern-with-tkinter-python/  
